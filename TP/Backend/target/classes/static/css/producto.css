@@ -1,0 +1,29 @@
+td {
+    max-width: 800px;
+    padding-left: 10px;
+}
+table {
+    margin: 0px 20px 0px 20px;
+    min-height: 800px;
+}
+
+@media (height< 1080px){
+    main{
+    min-height: 830px;
+}
+}
+#boton{
+    background-color: #198754;
+    color: whitesmoke;
+    font-size: x-large;
+    border: 0px;
+    border-radius: 5px;
+}
+#dinero{
+    font-size: x-large;
+    font-weight: 600;
+    color: blueviolet;
+}
+#nombre{
+    font-size: larger;
+}

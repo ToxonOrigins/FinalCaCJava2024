@@ -1,0 +1,36 @@
+tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.producto {
+    height: 350px;
+    width: 300px;
+    border: 1px black solid;
+
+}
+
+.contain img {
+    width: 100%;
+    height: 275px;
+}
+
+@media (height< 1080px) {
+    main {
+        min-height: 824px;
+    }
+}
+
+.precio {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+main{
+    padding-left: 10px;
+}
